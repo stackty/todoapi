@@ -3,7 +3,7 @@ var app = express();
 var PORT = process.env.PORT ||3000;
 
 app.get('/', function(request, response){
-	response.send('todo API root');
+	response.send('Hey Tanya');
 })
 
 app.listen(PORT,function(){
