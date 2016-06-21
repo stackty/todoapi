@@ -31,7 +31,7 @@ app.get('/todos/:id',function(req,res){
 	if (matchedToDo){
 		res.json(matchedToDo);
 	}else{
-	response.status(404).send();}
+	res.status(404).send();}
 });
 app.listen(PORT,function(){
 	console.log('express listening on port %d',PORT);
